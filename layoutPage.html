@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dàn trang</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		margin: 0px auto;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	p{
+		padding-top: 10px;
+	}
+		#header{
+			background-color: #f1f1f1;
+			text-align: center;
+			padding: 20px;
+		}
+		#footer{
+			background-color: #d1d2d4;
+			text-align: center;
+			padding: 20px;
+		}
+		#leftPanel{
+			width: 20%;
+			padding: 10px;
+			float: left;
+		}
+		#mainPanel{
+			width: 60%;
+			float: left;
+			padding: 10px;
+		}
+		#rightPanel{
+			width: 20%;
+			float: left;
+			padding: 10px;
+		}	
+		#wrapper{
+			display: table; /*để nó bao các thẻ div bên trong*/
+			width: 100%;
+			margin: 0px auto;
+			clear: both;
+		}
+
+		/*Responsive*/
+		@media screen and (max-width: 600px){
+			#leftPanel, #rightPanel, #mainPanel{
+				width: 100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1> TKPro.edu.vn xin chào các bạn</h1>
+		<h3> Đây là nội dung phần header...</h3> 
+	</div>
+
+	<div id="wrapper">
+
+		<div id="leftPanel">
+			<h2>Left panel</h2>
+			<p>Nội dung ở phần bên trái</p>
+		</div>
+
+		<div id="mainPanel">
+			<h2>Center content</h2>
+
+			<p>Nội dung mẫu:</p>
+			
+			<p>Theo tờ The Sun, một số thành viên trong ban lãnh đạo Chelsea đã không ngần ngại dự đoán những lý do mà HLV Antonio Conte sử dụng để biện minh cho thất bại gần đây. Họ cho rằng Conte sẽ dùng lịch thi đấu ở trận thua Man City và thiếu chiều sâu đội hình ở thất bại trước Crystal Palace.</p>
+
+			<p>Trên thực tế, Conte đã làm đúng như vậy. Tuy nhiên, điều này cho thấy Ban lãnh đạo đội bóng đang mất đi sự tôn trọng và kiên nhẫn với chiến lược gia người Italy.</p>
+
+			<p>Giám đốc kỹ thuật Chelsea Michael Emenalo, người phụ trách tuyển mộ cầu thủ, đã phải họp sau trận hòa 3-3 với Roma từ tối thứ 4 tới 3h sáng thứ 5, cũng theo The Sun.</p>
+		</div>
+
+		<div id="rightPanel">
+			<h2>Right panel</h2>
+			<p>Nội dung ở phần bên phải</p>
+		</div>
+	</div>
+
+	<div id="footer">
+		<h3>Nội dung phần footer</h3>
+	</div>
+</body>
+</html>
