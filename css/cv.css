@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-weight: 500;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(left, #0083B0, #00B4DB);
+    background: -o-linear-gradient(left, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 1122px;
+    padding: 50px 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 1122px;
+    position: absolute;
+    top: 50px;
+}
+
+.main-content {
+    width: 800px;
+    height: 100%;
+    background: white;
+    margin: 0px auto;
+}
+
+.left-content {
+    width: 36%;
+    height: 100%;
+    background: rgba(240, 240, 240, 1);
+    float: left;
+}
+
+.right-content {
+    width: 64%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    float: right;
+    position: relative;
+}
+
+.avatar-cv {
+    background: url(../images/avatar.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(117, 144, 189);
+    border-radius: 50%;
+    margin: 30px auto 35px;
+}
+
+.title {
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    height: 30px;
+}
+
+.title-contact {
+    text-align: center;
+    margin: 10px auto;
+}
+
+p > i.fa.fa-envelope {
+    font-size: 12px;
+}
+
+.introduce {
+    font-size: 15px;
+    text-align: justify;
+    margin: 25px;
+    line-height: 2;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.left-content > .section > p {
+    font-size: 15px;
+    margin: 25px;
+    text-indent: 10px;
+}
+
+.left-content > .section > p > i {
+    margin-right: 10px;
+}
+
+.author-info {
+    padding: 70px 0 50px;
+    text-align: center;
+}
+
+.position {
+    font-size: 21px;
+    color: #236b81;
+}
+
+.title-edu, .title-exp, .title-skill {
+    position: absolute;
+    left: 45px;
+    padding-left: 28px;
+    width: 436px;
+}
+
+.title-edu {
+    margin: 35px 0px 10px 0px;
+}
+
+.title-edu:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 0px;
+    bottom: 12px;
+}
+
+.title-edu:after {
+    content: "";
+    width: 310px;
+    height: 2px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 148px;
+    bottom: 16px;
+}
+
+.title-exp {
+    margin: 140px 0px 10px 0px;
+}
+
+.title-exp:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 0px;
+    bottom: 12px;
+}
+
+.title-exp:after {
+    content: "";
+    width: 262px;
+    height: 2px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 196px;
+    bottom: 16px;
+}
+
+.title-skill {
+    margin: 245px 0px 10px 0px;
+}
+
+.title-skill:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 0px;
+    bottom: 12px;
+}
+
+.title-skill:after {
+    content: "";
+    width: 310px;
+    height: 2px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 148px;
+    bottom: 16px;
+}
+
+.timeline {
+    position: relative;
+    border-left: 1px solid rgba(112, 173, 71, 1);
+    margin-left: 50px;
+}
+
+.edu-timeline {
+    top: 100px;
+    height: 115px;
+}
+
+.exp-timeline {
+    top: 200px;
+    height: 90px;
+}
+
+.sub-timeline {
+    position: relative;
+    padding-left: 42px;
+    top: -8px;
+    font-size: 15px;
+    margin: 0px 0px 25px;
+}
+
+.sub-timeline:before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #236b81;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: -2px;
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+}
+
+#canvas1 {
+    width: 450px;
+    height: 290px;
+    position: absolute;
+    top: 690px;
+    left: 50px;
+}
+
+.circle {
+    width: 121px;
+    float: left;
+}
+
+#circles-1, #circles-2, #circles-3 {
+    margin: 0px 14px;
+}
+
+#circles-4, #circles-5, #circles-6  {
+    margin: 25px 14px;
+}
+
+canvas.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circles-decimals {
+    font-size: .4em;
+}
+
+span.circles-integer {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+span.circles-integer:after {
+    content: "%";
+}
+
+span.skill-name-circle {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+span.skill-name-1 {
+    top: 39px;
+    left: 44px;
+}
+
+span.skill-name-2 {
+    top: 39px;
+    left: 199px;
+}
+
+span.skill-name-3 {
+    top: 39px;
+    left: 359px;
+}
+
+span.skill-name-4 {
+    top: 187px;
+    left: 54px;
+}
+
+span.skill-name-5 {
+    top: 187px;
+    left: 190px;
+}
+
+span.skill-name-6 {
+    top: 187px;
+    left: 336px;
+}
+
+.skill-other {
+    position: absolute;
+    top: 985px;
+    left: 25px;
+}
+
+p.text {
+    font-size: 15px;
+    margin:0 25px;
+    line-height: 2;
+}
