@@ -1,91 +1,250 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Đây là CV của Trung Kiên</title>
-	<meta charset="utf-8">
-	<style type="text/css">
-	*{
-		margin: 0px auto;
-		padding: 0px;
-		box-sizing: border-box;
-	}
-	p{
-		padding-top: 10px;
-	}
-		#header{
-			background-color: #f1f1f1;
-			text-align: center;
-			padding: 20px;
-		}
-		#footer{
-			background-color: #d1d2d4;
-			text-align: center;
-			padding: 20px;
-		}
-		#leftPanel{
-			width: 20%;
-			padding: 10px;
-			float: left;
-		}
-		#mainPanel{
-			width: 60%;
-			float: left;
-			padding: 10px;
-		}
-		#rightPanel{
-			width: 20%;
-			float: left;
-			padding: 10px;
-		}	
-		#wrapper{
-			display: table; /*để nó bao các thẻ div bên trong*/
-			width: 100%;
-			margin: 0px auto;
-			clear: both;
-		}
-
-		/*Responsive*/
-		@media screen and (max-width: 600px){
-			#leftPanel, #rightPanel, #mainPanel{
-				width: 100%;
-			}
-		}
-
-	</style>
+	<meta charset="UTF-8">
+	<title>ĐỖ NGỌC TRUNG KIÊN - Hồ sơ cá nhân (CV - online)</title>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/cv.css">
+  <link rel="shortcut icon" href="images/logo.png">
 </head>
 <body>
-	<div id="header">
-		<h1>Trung Kiên</h1>
-		<h3> Đây là nội dung phần header...</h3> 
-	</div>
 
-	<div id="wrapper">
+<div id="particles-js">
+</div>
+<div class="wrapper">
+  <div class="main-content">
+  	<div class="left-content">
+  		<div class="avatar-cv"></div>
+  		<div class="section">
+          <p class="introduce">Xin chào, tôi là Trung Kiên sinh năm 1996, hiện đã tốt nghiệp trường Đại học Quảng Nam ngành Công nghệ thông tin.</p>
+          <p class="introduce">Là một người hoạt bát, vui vẻ và hòa đồng.Tôi đam mê lập trình đặc biệt là lập trình web. </p>
+      </div>
+  		
+  		<div class="section">
+        <h4 class="title title-contact">LIÊN HỆ</h4>
+        <p><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook: <a href="http://fb.com/trkien96" target="_blank">fb.com/trkien96</a></p>
+        <p><i class="fa fa-skype" aria-hidden="true"></i>Skype: trungkien241096</p>
+        <p><i class="fa fa-github" aria-hidden="true"></i>Github: github.com/trkien96</p>
+        <p><i class="fa fa-phone" aria-hidden="true"></i>0971333895</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>trungkien241096@gmail.com</p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i>Thăng Bình, Quảng Nam</p>
+      </div>
+  		
+  	</div>
+  	<div class="right-content">
+  		<div class="author-info">
+          <h1 class="author-name">ĐỖ NGỌC TRUNG KIÊN</h1>
+          <p class="position">Lập trình viên PHP</p>
+      </div>
+  		
+  		<div class="title title-edu">HỌC VẤN</div>
+  		<div class="edu-timeline timeline">
+  			<p class="sub-timeline"><b>09/2014 - 07/2018</b>: Trường ĐẠI HỌC QUẢNG NAM</br>Ngành Công nghệ thông tin</p>
+        <p class="sub-timeline"><b>10/2017 - 05/2018</b>: Trung tâm đào tạo lập trình TKPRO</br>Hoàn thành khóa LẬP TRÌNH PHP CƠ BẢN NÂNG CAO </p>
+  		</div>
+  		<div class="title title-exp">KINH NGHIỆM</div>
+  		<div class="exp-timeline timeline">
+  			<p class="sub-timeline"><b>02/2018 - 04/2018</b>: Thực tập tại Công ty TNHH MTV Agile</br>Tìm hiểu về ngôn ngữ TypeScript ES6, Angular 2</p>
+        <p class="sub-timeline"><b>06/2018 – 07/2019</b>: Tham gia team (2 người) lập trình dự án Hệ thống tools offer phuquocit.net</p>
+  		</div>
+  		<div class="title title-skill">KỸ NĂNG</div>
+  		<div id="canvas1">
+  			<div class="circle" id="circles-1"></div>
+  			<span class="skill-name-1 skill-name-circle">HTML</span>
+  			<div class="circle" id="circles-2"></div>
+  			<span class="skill-name-2 skill-name-circle">CSS</span>
+  			<div class="circle" id="circles-3"></div>
+  			<span class="skill-name-3 skill-name-circle">JS</span>
+  			<div class="circle" id="circles-4"></div>
+  			<span class="skill-name-4 skill-name-circle">PHP</span>
+  			<div class="circle" id="circles-5"></div>
+  			<span class="skill-name-5 skill-name-circle">MySQL</span>
+        <div class="circle" id="circles-6"></div>
+        <span class="skill-name-6 skill-name-circle">Laravel</span>
+  		</div>
 
-		<div id="leftPanel">
-			<h2>Left panel</h2>
-			<p>Nội dung ở phần bên trái</p>
-		</div>
+  		<div class="skill-other">
+  			<p class="text">-  Có khả năng đọc hiểu tiếng anh chuyên ngành mức khá, tìm kiếm thông tin giải quyết vấn đề.</p>
+        <p class="text">-  Có tinh thần cầu tiến và học hỏi không ngừng, luôn có tinh thần trách nhiệm với công việc được giao.</p>
+  		</div>
+  	</div>
+  </div>
+</div>
+<script src="js/circles.min.js"></script>
+<script type="text/javascript">
+	Circles.create({
+		id:         'circles-1',
+		value:		85,
+		radius:     60,
+		width:      7,
+		colors:     ['#eeeeee', '#236b81']
+	});
 
-		<div id="mainPanel">
-			<h2>Center content</h2>
+	Circles.create({
+		id:         'circles-2',
+		value:		85,
+		radius:     60,
+		width:      7,
+		colors:     ['#eeeeee', '#236b81']
+	});
 
-			<p>Nội dung mẫu:</p>
-			
-			<p>Theo tờ The Sun, một số thành viên trong ban lãnh đạo Chelsea đã không ngần ngại dự đoán những lý do mà HLV Antonio Conte sử dụng để biện minh cho thất bại gần đây. Họ cho rằng Conte sẽ dùng lịch thi đấu ở trận thua Man City và thiếu chiều sâu đội hình ở thất bại trước Crystal Palace.</p>
+	Circles.create({
+		id:         'circles-3',
+		value:		70,
+		radius:     60,
+		width:      7,
+		colors:     ['#eeeeee', '#236b81']
+	});
 
-			<p>Trên thực tế, Conte đã làm đúng như vậy. Tuy nhiên, điều này cho thấy Ban lãnh đạo đội bóng đang mất đi sự tôn trọng và kiên nhẫn với chiến lược gia người Italy.</p>
+	Circles.create({
+		id:         'circles-4',
+		value:		80,
+		radius:     60,
+		width:      7,
+		colors:     ['#eeeeee', '#236b81']
+	});
 
-			<p>Giám đốc kỹ thuật Chelsea Michael Emenalo, người phụ trách tuyển mộ cầu thủ, đã phải họp sau trận hòa 3-3 với Roma từ tối thứ 4 tới 3h sáng thứ 5, cũng theo The Sun.</p>
-		</div>
+	Circles.create({
+		id:         'circles-5',
+		value:		80,
+		radius:     60,
+		width:      7,
+		colors:     ['#eeeeee', '#236b81']
+	});
+  Circles.create({
+    id:         'circles-6',
+    value:    60,
+    radius:     60,
+    width:      7,
+    colors:     ['#eeeeee', '#236b81']
+  });
+</script>
 
-		<div id="rightPanel">
-			<h2>Right panel</h2>
-			<p>Nội dung ở phần bên phải</p>
-		</div>
-	</div>
+<script src='js/particles.min.js'></script>
+<script >
 
-	<div id="footer">
-		<h3>Nội dung phần footer</h3>
-	</div>
+particlesJS("particles-js", {
+
+  "particles": {
+    "number": {
+      "value": 250,
+      "density": {
+        "enable": false,
+        "value_area": 1500
+      }
+    },
+    "color": {
+      "value": "#fff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "http://image.ibb.co/g9eFcF/logo_transparent.png",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.6,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 120,
+      "color": "#ffffff",
+      "opacity": 0.5,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 8,
+      "direction": "random",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": true,
+      "attract": {
+        "enable": true,
+        "rotateX": 3600,
+        "rotateY": 3600
+      }
+    }
+  },
+
+
+
+  "interactivity": {
+    "detect_on": "canvas",
+
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+
+      "onclick": {
+        "enable": true,
+        "mode": "remove"
+      },
+      "resize": true
+    },
+
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 100,
+        "size": 4,
+        "duration": 2,
+        "opacity": 1,
+        "speed": 3
+      },
+
+      "repulse": {
+        "distance": 200,
+        "duration": 0.5
+      },
+
+      "push": {
+        "particles_nb": 5
+      },
+
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+//# sourceURL=pen.js
+</script>
+
 </body>
 </html>
